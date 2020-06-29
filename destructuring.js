@@ -24,3 +24,20 @@
 
 //array destructuring 3
 // [10, 30, 20]
+
+//es2015 obj destructuring
+const obj = {
+  numbers: {
+    a: 1,
+    b: 2
+  }
+};
+const { a, b } = obj.numbers;
+
+//es2015 one-line array swap 
+const arr = [1, 2];
+const temp = arr[0];
+[arr[0], arr[1]] = [arr[1], arr[0]]
+
+//raceResults()
+const raceResults = ([first, second, third, ...rest]) => ({first, second, third, rest})
