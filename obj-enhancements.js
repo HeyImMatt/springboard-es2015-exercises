@@ -47,3 +47,13 @@ const instructor = {
     return this.firstName + ' says bye!';
   }
 }
+
+//createAnimail function
+function createAnimal(species, verb, noise) {
+  return {
+    species,
+    [verb]() {
+      return noise
+    }
+  }
+}
