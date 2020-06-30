@@ -24,5 +24,5 @@ const vowelCount = (str) => {
         : vowelMap.set(lowerCaseChar, 1);
     }
   }
-  return vowelMap
+  return vowelMap;
 };
